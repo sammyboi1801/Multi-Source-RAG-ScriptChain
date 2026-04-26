@@ -1,0 +1,20 @@
+# Multi-Source RAG - Supabase Technical Support
+# Install: pip install -r requirements.txt
+
+# Core RAG stack
+chromadb==1.5.8
+sentence-transformers==5.4.1
+rank-bm25==0.2.2
+
+# LLM providers (Groq + Ollama both via OpenAI-compatible API)
+openai==2.32.0
+groq==1.2.0
+
+# Utilities
+requests==2.33.1
+python-dotenv==1.2.2
+numpy==2.4.4
+
+# Transitive (installed automatically by sentence-transformers)
+# torch==2.11.0
+# transformers==5.6.2
