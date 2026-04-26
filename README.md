@@ -3,7 +3,12 @@
 A RAG system that answers developer questions about Supabase by pulling from three
 knowledge sources: official documentation, blog posts, and GitHub issue threads.
 
+
 **Stack:** Python, ChromaDB, sentence-transformers, Groq (or Ollama)
+
+## Video Presentation
+
+**Link** - https://youtu.be/L5HU1faF20E
 
 ---
 
